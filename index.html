@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Blast Dishwashing Liquid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Company Logo">
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p><b>Welcome to Bubble Blast!</b></p>
+		<p><b>Your Ultimate Destination for Sparkling Clean Dishes! Dive into a world where cleanliness meets convenience with our premium dishwashing liquid solutions. Say goodbye to tough grease and stubborn stains as we bring you innovative formulas designed to make dishwashing a breeze. Join us on a journey towards effortlessly pristine dishes, where every wash leaves a lasting shine. Discover the magic of Suds & Shine and elevate your dishwashing experience today!</b></p>
+	<section id="products">
+		<div class="product">
+			<img src="unscented-dishwashing.png" alt="Regular Dishwashing Liquid">
+			<h3>Regular Dishwashing Liquid</h3>
+			<p>Our classic dishwashing liquid for everyday use.</p>
+		</div>
+		<div class="product">
+			<img src="calamansi-dishwashing.png" alt="Lemon-Scented Dishwashing Liquid">
+			<h3>Lemon-Scented Dishwashing Liquid</h3>
+			<p>Refreshing calamansi scent to leave your dishes smelling fresh.</p>
+		</div>
+		<div class="product">
+			<img src="hypoallergenic-dishwashing.png" alt="Hypoallergenic Dishwashing Liquid">
+			<h3>Hypoallergenic Dishwashing Liquid</h3>
+			<p>Gentle formula suitable for sensitive skin.</p>
+		</div>
+	</section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to contact us:</p>
+        <p>Email: bubbleblastdishwashingliquid@gmail.com</p>
+        <p>Phone: 0951-126-1521</p>
+		<p>Telephone: 871-1959</p>
+		
+    </section>
+	<footer>
+		<div class="social-media">
+			<a href="https://www.facebook.com/profile.php?id=61557730582975"><img src="facebook.png" alt="Facebook" width="30" height="30"></a>
+			<a href="https://twitter.com/BubbleBlast_DL/"><img src="twitter.png" alt="Twitter" width="30" height="30"></a>
+			<a href="https://www.instagram.com/bubbleblastdl/"><img src="instagram.png" alt="Instagram" width="30" height="30"></a>
+			<a href="https://shopee.ph/user/account/profile#:~:text=in%20cart%200-,bubbleblastdishwashing,-Edit%20Profile"><img src="shopee.png" alt="Shopee" width="30" height="30"></a>
+			<a href="https://www.tiktok.com/@bubbleblast_dishwashing?is_from_webapp=1&sender_device=pc"><img src="tiktok.png" alt="TikTok" width="30" height="30"></a>
+		</div>
+	</footer>
+	<script>
+		const productImages = document.querySelectorAll('.product img');
+
+		productImages.forEach(image => {
+			image.addEventListener('click', () => {
+				// Toggle the "enlarged" class on clicked image
+				image.classList.toggle('enlarged');
+			});
+		});
+	</script>
+
+</body>
+</html>
