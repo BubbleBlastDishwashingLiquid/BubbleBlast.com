@@ -145,3 +145,12 @@ footer {
 .social-media a {
     margin: 0 10px;
 }
+
+@media (max-width: 768px) {
+    .product img.enlarged {
+        width: 80%; /* Adjust the width of the enlarged image for smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 90%; /* Limit maximum width of enlarged image */
+        max-height: 90%; /* Limit maximum height of enlarged image */
+    }
+}
